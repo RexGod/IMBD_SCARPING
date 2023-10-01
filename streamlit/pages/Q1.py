@@ -5,7 +5,7 @@ import pandas as pd
 database = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
-    password = 'Sh@0831@Sh',
+    password = '',
     database = 'imdb_top_250'
 )
 mycursor = database.cursor()
